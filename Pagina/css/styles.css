@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_cuerpo {
+    padding-top: 20px;
+    background-color: white;
+    width: 75%;
+}
+
+.icono_empresa {
+    width: 230px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.informacion_empresa {
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.icono_correo {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.icono_telefono {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.informacion_telefono {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefono {
+    color: rgb(128, 118, 118);
+    font-size: 17px;
+}
+
+.informacion_correo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo {
+    color: rgb(128, 118, 118);
+    font-size: 17px;
+}
+
+.contenedor_navegacion {
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icono_redes-sociales {
+    width: 160px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.informacion_empresa-menu {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+.item_navegacion {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lista_navegacion {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.imagen_principal {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo_reseña {
+    margin-left: 30px;
+    font-size: 27px;
+}
+
+.parrafo_descripcion {
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 11px;
+}
+
+.imagen_reseña {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor_articulos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.articulo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor_precios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen_servicios {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.articulos_precios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.precios {
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo_precios {
+    width: 30%;
+    height: 200px;
+    background-color: rgb(95, 187, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_whatsapp {
+    width: 4%;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 120px;
+    margin-top: 80px;
+    position: sticky;
+    top: 650px;
+}
+
+.piedepagina {
+    margin-top: 10px;
+    background-color: rgb(214, 206, 206);
+    height: 50px;
+}
+
+.contenedor_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.derechos {
+    margin-top: 13px;
+    color: rgb(128, 118, 118);
+}
